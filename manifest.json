@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Stealth",
+  "version": "1.0",
+  "description": "Hides difficulty tags to simulate OA environments.",
+  "icons": {"128": "icon.png"},
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*"],
+      "css": ["hide.css"]
+    }
+  ]
+}

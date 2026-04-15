@@ -1,0 +1,18 @@
+/* 1. Hide the Difficulty Pill */
+.text-difficulty-easy,
+.text-difficulty-medium,
+.text-difficulty-hard {
+    display: none !important;
+}
+
+/* 2. Hide the 'Accepted' and 'Acceptance Rate' stat blocks */
+/* We target the highly specific combination of utility classes */
+div.flex.items-center.gap-2.whitespace-nowrap.text-xs.font-medium {
+    display: none !important;
+}
+
+/* 3. Hide the small vertical divider line between the stats */
+/* The backslash '\' is required to escape the decimal point in "2.5" */
+div.h-2\.5.w-0.border-r.border-sd-border {
+    display: none !important;
+}
