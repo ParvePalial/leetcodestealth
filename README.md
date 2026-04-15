@@ -1,6 +1,6 @@
 # LeetCode Stealth 🥷 
 
-** A lightweight browser extension that hides difficulty tags and acceptance rates on LeetCode.**
+""" A lightweight browser extension that hides difficulty tags and acceptance rates on LeetCode. """
 
 In real coding interviews, you aren't told if a problem is "Easy", "Medium", or "Hard". You aren't told that "only 15% of people pass this." 
 
