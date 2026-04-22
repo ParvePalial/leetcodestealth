@@ -1,20 +1,22 @@
 {
   "manifest_version": 3,
   "name": "LeetCode Stealth",
-  "version": "1.0",
-  "description": "Hides difficulty tags to simulate OA environments.",
-  "icons": {"128": "icon.png"},
-  "premissions" : [
+  "version": "2.0",
+  "description": "Hides difficulty tags. Auto-reveals on Accepted.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
     "storage"
   ],
-  "action" : {
+  "action": {
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
       "matches": ["*://leetcode.com/problems/*"],
       "css": ["hide.css"],
-      "js" : ["content.js"]
+      "js": ["content.js"]
     }
   ]
 }
