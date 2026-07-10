@@ -61,7 +61,7 @@ function showDifficultyAndStats() {
   // Show difficulty tags
   const difficultyTags = document.querySelectorAll('div[class*="text-difficulty-"]');
   difficultyTags.forEach(tag => {
-    if (tag.textContent.match(/^(Easy|Medium|Hard)$/)) {
+    if (strong.textContent.trim().match(/^(School|Basic|Easy|Medium|Hard)$/)) {
       tag.style.display = '';
     }
   });
